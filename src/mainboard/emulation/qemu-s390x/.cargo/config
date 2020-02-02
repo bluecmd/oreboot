@@ -1,0 +1,5 @@
+[build]
+target = "s390x-unknown-none"
+
+[target.s390x-unknown-none]
+rustflags = ["-C", "link-arg=-Tlink.ld"]
